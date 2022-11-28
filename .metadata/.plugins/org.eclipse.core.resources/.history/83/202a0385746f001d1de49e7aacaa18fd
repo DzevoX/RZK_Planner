@@ -1,0 +1,45 @@
+package rzk.beans;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import model.User;
+
+@Stateless
+@LocalBean
+public class AccountBean implements AccountBeanRemote {
+
+	@PersistenceContext
+	EntityManager em;
+
+	public AccountBean() {
+	}
+
+	@Override
+	public boolean createAccount(String email, String password, String firstName, String lastName) {
+		if (email != null && password != null && firstName != null && lastName != null) {
+			User newUser = new User();
+			newUser.setEmail(email);
+			newUser.setPassword(password);
+			newUser.setFirstName(firstName);
+			newUser.setLastName(lastName);
+
+			em.persist(newUser);
+			return true;
+		}
+		return false;
+	}
+
+	@PostConstruct
+	public void connect() {
+		System.out.println("AccountBean has been created!");
+	}
+
+	@PreDestroy
+	public void cleanup() {
+		System.out.println("AccountBean has been destroyed!");
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PlanerWEB/src/main/webapp/home.jsp&apos; to &apos;event.jsp&apos;" description="Rename resource &apos;home.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/home.jsp" name="event.jsp" stamp="1669047544415" updateReferences="true"/>
+</session>

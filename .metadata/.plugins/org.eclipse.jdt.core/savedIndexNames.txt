@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\dzevo\Downloads\Rzk\rzkws\.metadata\.plugins\org.eclipse.jdt.core
+2066994899.index
+3732573051.index
+1178656938.index
+1865797976.index
+4228015911.index
+2719001761.index

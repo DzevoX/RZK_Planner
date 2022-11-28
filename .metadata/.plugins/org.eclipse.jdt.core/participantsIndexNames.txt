@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\dzevo\Downloads\Rzk\rzkws\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3978798877.index
+\CalculatorWEB\src\main\java
+C:\Users\dzevo\Downloads\Rzk\rzkws\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1861613430.index
+\PlanerWEB\src\main\java
+C:\Users\dzevo\Downloads\Rzk\rzkws\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1993022919.index
+\OglasiWEB\src\main\java
